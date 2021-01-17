@@ -32,16 +32,6 @@ const ProjectNavbar = (props) => {
             Description
           </NavLink>
         </NavItem>
-        <NavItem>
-          <NavLink
-            className={classnames({ active: activeTab === "2" })}
-            onClick={() => {
-              toggle("2");
-            }}
-          >
-            Comment
-          </NavLink>
-        </NavItem>
       </Nav>
       <TabContent activeTab={activeTab}>
         <TabPane tabId="1">
